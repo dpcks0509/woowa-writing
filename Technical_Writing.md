@@ -284,28 +284,22 @@ NaverMap에 LocationSource를 지정하면 위치 추적 기능을 사용할 수
   : 위치 추적이 활성화되고, 현위치 오버레이가 사용자의 위치를 따라 움직입니다.
   그러나 지도는 움직이지 않습니다.
 
-![27.png](img%2F27.png)
-
 - Follow
   : 위치 추적이 활성화되고, 현위치 오버레이와 카메라의 좌표가 사용자의 위치를 따라 움직입니다.
   API나 제스처를 사용해 임의로 카메라를 움직일 경우 모드가 NoFollow로 바뀝니다.
-
-![28.png](img%2F28.png)
 
 - Face
   : 위치 추적이 활성화되고, 현위치 오버레이, 카메라의 좌표, 베어링이 사용자의 위치 및 방향을 따라 움직입니다.
   API나 제스처를 사용해 임의로 카메라를 움직일 경우 모드가 NoFollow로 바뀝니다.
 
-![29.png](img%2F29.png)
-
 - 현위치 버튼 컨트롤 사용
   : UiSettings.setLocationButtonEnabled(true)로 현위치 버튼 컨트롤을 활성화하면 사용자의 클릭에 따라 위치 추적 모드를 변경할 수 있습니다.
 
-![30.png](img%2F30.png)
+![27.png](img%2F27.png)
 
 ### 위치 변경 이벤트
 
 addOnLocationChangeListener() 메서드로 OnLocationChangeListener를 등록하면 위치 변경에 대한 이벤트를 받을 수 있습니다.
 위치 추적 모드가 활성화되고 사용자의 위치가 변경되면 onLocationChange() 콜백 메서드가 호출되며, 파라미터로 사용자의 위치가 전달됩니다.
 
-![31.png](img%2F31.png)
+![28.png](img%2F28.png)
