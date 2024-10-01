@@ -272,10 +272,8 @@ NaverMap에 LocationSource를 지정하면 위치 추적 기능을 사용할 수
 
 - 위치 추적 모드 지정
   : setLocationTrackingMode()를 호출하면 프로그램적으로 위치 추적 모드를 지정할 수 있습니다.
-  - 현위치 버튼 컨트롤 사용
-  : UiSettings.setLocationButtonEnabled(true)로 현위치 버튼 컨트롤을 활성화하면 사용자의 클릭에 따라 위치 추적 모드를 변경할 수 있습니다.
 
-위치 추적 모드는 다음의 네 가지이며, LocationTrackingMode 열거형에 정의되어 있습니다.
+![27.png](img%2F27.png)
 
 - None
   : 위치를 추적하지 않습니다.
@@ -294,8 +292,6 @@ NaverMap에 LocationSource를 지정하면 위치 추적 기능을 사용할 수
 
 - 현위치 버튼 컨트롤 사용
   : UiSettings.setLocationButtonEnabled(true)로 현위치 버튼 컨트롤을 활성화하면 사용자의 클릭에 따라 위치 추적 모드를 변경할 수 있습니다.
-
-![27.png](img%2F27.png)
 
 ### 위치 변경 이벤트
 
