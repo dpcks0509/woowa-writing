@@ -211,7 +211,7 @@ CameraUpdate.reason()을 호출해 카메라 이동의 원인을 지정할 수 �
 제스처, 컨트롤 등 네이버 지도 SDK의 내장 기능에 의해 카메라가 이동한 경우 미리 정의된 음숫값을 가지며, 개발자가 임의의 양숫값을 지정할 수도 있습니다.
 
 - REASON_DEVELOPER
-  : 개발자가 API를 호출해 카메라가 움직였음을 나타냅니다. 기본값입니다.
+  : reason의 기본값으로, 개발자가 API를 호출해 카메라가 움직였음을 나타냅니다.
 
 - REASON_GESTURE
   : 사용자의 제스처로 인해 카메라가 움직였음을 나타냅니다.
@@ -302,7 +302,6 @@ addOnLocationChangeListener() 메서드로 OnLocationChangeListener를 등록하
 위치 추적 모드가 활성화되고 사용자의 위치가 변경되면 onLocationChange() 콜백 메서드가 호출되며, 파라미터로 사용자의 위치가 전달됩니다.
 
 ![28.png](img%2F28.png)
-
 
 ## 🏁 결론
 
