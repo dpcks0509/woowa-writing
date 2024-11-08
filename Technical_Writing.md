@@ -50,7 +50,8 @@
 클라이언트 ID는 두 가지 방식으로 지정할 수 있습니다.
 
 1. AndroidManifest.xml에 지정
-   AndroidManifest.xml의 <application> 아래에 <meta-data> 요소를 추가하고, name으로 com.naver.maps.map.CLIENT_ID를, value로 발급받은 클라이언트 ID를 지정합니다.
+   AndroidManifest.xml의 <application> 아래에 <meta-data> 요소를 추가하고, name으로 com.naver.maps.map.CLIENT_ID를, value로 발급받은 클라이언트
+   ID를 지정합니다.
 
    ![9.png](img%2F9.png)
 
@@ -257,7 +258,9 @@ activate(), deactivate() 등 LocationSource의 메서드는 지도 객체가 호
 
 ### FusedLocationSource
 
-네이버 지도 SDK는 Google Play 서비스의 FusedLocationProviderClient와 지자기, 가속도 센서를 활용해 최적의 위치를 반환하는 구현체인 FusedLocationSource를 제공합니다.
+네이버 지도 SDK의 FusedLocationSource는 Google Play 서비스의 FusedLocationProviderClient와 기기의 지자기 및 가속도 센서를 결합하여 최적의 위치 정보를 제공하는 구현체입니다.
+이를 통해 GPS 신호가 약하거나 실내 환경에서도 보다 정확한 위치 데이터를 제공받을 수 있습니다.
+FusedLocationSource는 다양한 소스로부터 위치 데이터를 수집하고 통합하여 정확도를 높이며, 효율적인 배터리 관리를 돕습니다.
 FusedLocationSource를 사용하려면 앱 모듈의 build.gradle에 play-services-location 21.0.1 이상 버전에 대한 의존성을 추가해야 합니다.
 
 ![25.png](img%2F25.png)
