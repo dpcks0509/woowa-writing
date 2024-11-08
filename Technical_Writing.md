@@ -50,8 +50,7 @@
 클라이언트 ID는 두 가지 방식으로 지정할 수 있습니다.
 
 1. AndroidManifest.xml에 지정
-   AndroidManifest.xml의 <meta-data>로 클라이언트 ID를 지정할 수 있습니다.
-   <application> 아래에 <meta-data> 요소를 추가하고, name으로 com.naver.maps.map.CLIENT_ID를, value로 발급받은 클라이언트 ID를 지정합니다.
+   AndroidManifest.xml의 <application> 아래에 <meta-data> 요소를 추가하고, name으로 com.naver.maps.map.CLIENT_ID를, value로 발급받은 클라이언트 ID를 지정합니다.
 
    ![9.png](img%2F9.png)
 
